@@ -10,6 +10,7 @@ import 'favoritos_aluno.dart';
 import 'configs_aluno.dart';
 import 'favoritos_aluno.dart';
 import 'home_aluno.dart';
+import 'home_atual_aluno.dart';
  
  
 class ChamandHomeAluno extends StatefulWidget {
@@ -25,6 +26,7 @@ class _ChamandHomeAlunoState extends State<ChamandHomeAluno> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      extendBody: true,
      // appBar: AppBar(title: Text("Olá, usuário"),),
  
   body: SafeArea(child:
@@ -43,6 +45,7 @@ class _ChamandHomeAlunoState extends State<ChamandHomeAluno> {
  
    
     bottomNavigationBar: CurvedNavigationBar(
+      
         color: Colors.lightBlue,
         buttonBackgroundColor: Colors.lightBlue,
         backgroundColor: Colors.transparent,

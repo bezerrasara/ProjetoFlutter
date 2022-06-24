@@ -1,8 +1,10 @@
 import 'dart:io';
 
 //import 'package:envio_imagem/aluno/aluno_chamar.dart';
+import 'package:envio_imagem/aluno/aluno_chamar.dart';
 import 'package:envio_imagem/chamar_paginas.dart';
 import 'package:envio_imagem/login2.dart';
+import 'package:envio_imagem/professor/drop_down_item_selected.dart';
 import 'login.dart';
 import 'package:envio_imagem/professor/home_professor.dart';
 import 'package:flutter/cupertino.dart';
@@ -30,6 +32,6 @@ void main() async {
   runApp(MaterialApp(
     title: 'Flutter - Storage File',
     debugShowCheckedModeBanner: false,
-    home: ChamandHome(),//HomeProfPage(), //Professor_Home() //MyApp(), //HomePage(),
+    home: const  ChamandHomeAluno(),// // MyHomePage() //HomeProfPage(), //Professor_Home() //MyApp(), //HomePage(),
   ));
 }

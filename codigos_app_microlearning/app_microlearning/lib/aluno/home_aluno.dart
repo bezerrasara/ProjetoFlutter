@@ -5,14 +5,14 @@ import 'package:flutter/material.dart';
 import 'configs_aluno.dart';
 import '../../professor/favoritos_aluno.dart';
  
-class Aluno_Home extends StatefulWidget {
-  const Aluno_Home({ Key? key }) : super(key: key);
+class AlunoHome extends StatefulWidget {
+  const AlunoHome({ Key? key }) : super(key: key);
  
   @override
-  _Aluno_HomeState createState() => _Aluno_HomeState();
+  _AlunoHomeState createState() => _AlunoHomeState();
 }
  
-class _Aluno_HomeState extends State<Aluno_Home> {
+class _AlunoHomeState extends State<AlunoHome> {
   PageController Controller = PageController(initialPage: 0);
   int index = 0;
   @override
@@ -92,7 +92,7 @@ class _Aluno_HomeState extends State<Aluno_Home> {
       ),
          
      
-      bottomNavigationBar: CurvedNavigationBar(
+      /*bottomNavigationBar: CurvedNavigationBar(
         color: Colors.lightBlue,
         buttonBackgroundColor: Colors.lightBlue,
         backgroundColor: Colors.transparent,
@@ -122,7 +122,7 @@ class _Aluno_HomeState extends State<Aluno_Home> {
            
         ],
  
-      ),
+      ),*/
      
     );
   }
